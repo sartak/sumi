@@ -100,3 +100,4 @@ hi perlStringStartEnd    cterm=NONE  ctermfg=35  ctermbg=NONE
 hi perlStatementControl  cterm=NONE  ctermfg=27  ctermbg=NONE
 hi perlStatementInclude  cterm=NONE  ctermfg=27  ctermbg=NONE
 hi perlRepeat            cterm=NONE  ctermfg=27  ctermbg=NONE
+hi perlConditional       cterm=NONE  ctermfg=27  ctermbg=NONE
