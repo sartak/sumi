@@ -63,7 +63,7 @@ hi Number         cterm=NONE   ctermfg=203  ctermbg=NONE
 hi PreProc        cterm=NONE   ctermfg=35   ctermbg=NONE
 hi Special        cterm=NONE   ctermfg=135  ctermbg=NONE
 hi SpecialChar    cterm=NONE   ctermfg=135  ctermbg=235
-hi Statement      cterm=NONE   ctermfg=41   ctermbg=NONE
+hi Statement      cterm=NONE   ctermfg=39   ctermbg=NONE
 hi Todo           cterm=BOLD   ctermfg=160  ctermbg=NONE
 hi Type           cterm=NONE   ctermfg=207  ctermbg=NONE
 hi Underlined     cterm=BOLD   ctermfg=227  ctermbg=NONE
@@ -94,10 +94,3 @@ hi diffNewFile    cterm=NONE   ctermfg=1    ctermbg=NONE
 hi diffAdded      cterm=NONE   ctermfg=2    ctermbg=NONE
 hi diffFile       cterm=NONE   ctermfg=2    ctermbg=NONE
 
-" Perl!
-hi perlStringStartEnd  cterm=NONE  ctermfg=39   ctermbg=NONE
-hi perlMethod          cterm=NONE  ctermfg=231  ctermbg=NONE
-
-hi perlStatementControl  cterm=NONE  ctermfg=119  ctermbg=NONE
-hi perlStatementInclude  cterm=NONE  ctermfg=119  ctermbg=NONE
-hi perlConditional       cterm=NONE  ctermfg=119  ctermbg=NONE
