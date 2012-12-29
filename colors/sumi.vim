@@ -55,7 +55,7 @@ hi Visual         cterm=NONE   ctermfg=231  ctermbg=61
 
 hi Comment        cterm=NONE   ctermfg=130  ctermbg=NONE
 hi Constant       cterm=NONE   ctermfg=215  ctermbg=NONE
-hi String         cterm=NONE   ctermfg=215  ctermbg=233
+hi String         cterm=NONE   ctermfg=215  ctermbg=234
 hi Error          cterm=NONE   ctermfg=231  ctermbg=52
 hi Identifier     cterm=NONE   ctermfg=131  ctermbg=NONE
 hi Ignore         cterm=NONE
