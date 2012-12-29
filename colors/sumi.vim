@@ -1,12 +1,14 @@
 " Vim color file
-" Name:       inkpot.vim
-" Maintainer: Ciaran McCreesh <ciaran.mccreesh@googlemail.com>
-" Homepage:   http://github.com/ciaranm/inkpot/
+" Name:       sumi.vim
+" Maintainer: Shawn M Moore <code@sartak.org>
+" Homepage:   http://github.com/sartak/sumi/
 "
 " This should work in the GUI, rxvt-unicode (88 colour mode) and xterm (256
 " colour mode). It won't work in 8/16 colour terminals.
 "
-" To use a black background, :let g:inkpot_black_background = 1
+" Forked from inkpot https://github.com/ciaranm/inkpot
+"
+" To use a black background, :let g:sumi_black_background = 1
 
 set background=dark
 hi clear
@@ -14,7 +16,7 @@ if exists("syntax_on")
    syntax reset
 endif
 
-let colors_name = "inkpot"
+let colors_name = "sumi"
 
 " map a urxvt cube number to an xterm-256 cube number
 fun! <SID>M(a)
@@ -42,12 +44,12 @@ fun! <SID>X(a)
     endif
 endfun
 
-if ! exists("g:inkpot_black_background")
-    let g:inkpot_black_background = 0
+if ! exists("g:sumi_black_background")
+    let g:sumi_black_background = 0
 endif
 
 if has("gui_running")
-    if ! g:inkpot_black_background
+    if ! g:sumi_black_background
         hi Normal         gui=NONE   guifg=#cfbfad   guibg=#1e1e27
     else
         hi Normal         gui=NONE   guifg=#cfbfad   guibg=#000000
@@ -145,7 +147,7 @@ if has("gui_running")
         hi ColorColumn  gui=NONE                      guibg=#2e2e2e
     endif
 else
-    if ! g:inkpot_black_background
+    if ! g:sumi_black_background
         exec "hi Normal         cterm=NONE   ctermfg=" . <SID>X(79) . " ctermbg=" . <SID>X(80)
     else
         exec "hi Normal         cterm=NONE   ctermfg=" . <SID>X(79) . " ctermbg=" . <SID>X(16)
