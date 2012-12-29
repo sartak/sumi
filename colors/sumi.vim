@@ -3,12 +3,9 @@
 " Maintainer: Shawn M Moore <code@sartak.org>
 " Homepage:   http://github.com/sartak/sumi/
 "
-" This should work in the GUI, rxvt-unicode (88 colour mode) and xterm (256
-" colour mode). It won't work in 8/16 colour terminals.
+" Designed for 256-color xterm.
 "
 " Forked from inkpot https://github.com/ciaranm/inkpot
-"
-" To use a black background, :let g:sumi_black_background = 1
 
 set background=dark
 hi clear
@@ -44,16 +41,8 @@ fun! <SID>X(a)
     endif
 endfun
 
-if ! exists("g:sumi_black_background")
-    let g:sumi_black_background = 0
-endif
-
 if has("gui_running")
-    if ! g:sumi_black_background
-        hi Normal         gui=NONE   guifg=#cfbfad   guibg=#1e1e27
-    else
-        hi Normal         gui=NONE   guifg=#cfbfad   guibg=#000000
-    endif
+    hi Normal         gui=NONE   guifg=#cfbfad   guibg=#000000
 
     hi CursorLine         guibg=#2e2e37
 
@@ -147,11 +136,7 @@ if has("gui_running")
         hi ColorColumn  gui=NONE                      guibg=#2e2e2e
     endif
 else
-    if ! g:sumi_black_background
-        exec "hi Normal         cterm=NONE   ctermfg=" . <SID>X(79) . " ctermbg=" . <SID>X(80)
-    else
-        exec "hi Normal         cterm=NONE   ctermfg=" . <SID>X(79) . " ctermbg=" . <SID>X(16)
-    endif
+    exec "hi Normal         cterm=NONE   ctermfg=" . <SID>X(79) . " ctermbg=" . <SID>X(16)
 
     exec "hi IncSearch      cterm=BOLD   ctermfg=" . <SID>X(80) . " ctermbg=" . <SID>X(73)
     exec "hi Search         cterm=NONE   ctermfg=" . <SID>X(80) . " ctermbg=" . <SID>X(52)
