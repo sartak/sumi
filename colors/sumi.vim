@@ -86,5 +86,3 @@ if v:version >= 703
     hi Conceal      cterm=NONE  ctermfg=135 ctermbg=NONE
     hi ColorColumn  cterm=NONE  ctermbg=235
 endif
-
-" vim: set et :
