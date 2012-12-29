@@ -86,3 +86,11 @@ if v:version >= 703
     hi Conceal      cterm=NONE  ctermfg=135 ctermbg=NONE
     hi ColorColumn  cterm=NONE  ctermbg=235
 endif
+
+
+" git commit messages
+hi diffRemoved    cterm=NONE   ctermfg=1    ctermbg=NONE
+hi diffNewFile    cterm=NONE   ctermfg=1    ctermbg=NONE
+hi diffAdded      cterm=NONE   ctermfg=2    ctermbg=NONE
+hi diffFile       cterm=NONE   ctermfg=2    ctermbg=NONE
+
