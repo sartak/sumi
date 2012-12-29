@@ -64,7 +64,7 @@ hi PreProc        cterm=NONE   ctermfg=35   ctermbg=NONE
 hi Special        cterm=NONE   ctermfg=135  ctermbg=NONE
 hi SpecialChar    cterm=NONE   ctermfg=135  ctermbg=235
 hi Statement      cterm=NONE   ctermfg=39   ctermbg=NONE
-hi Todo           cterm=BOLD   ctermfg=16   ctermbg=143
+hi Todo           cterm=BOLD   ctermfg=160  ctermbg=NONE
 hi Type           cterm=NONE   ctermfg=207  ctermbg=NONE
 hi Underlined     cterm=BOLD   ctermfg=227  ctermbg=NONE
 hi TaglistTagName cterm=BOLD   ctermfg=63   ctermbg=NONE
