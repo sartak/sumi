@@ -94,3 +94,9 @@ hi diffNewFile    cterm=NONE   ctermfg=1    ctermbg=NONE
 hi diffAdded      cterm=NONE   ctermfg=2    ctermbg=NONE
 hi diffFile       cterm=NONE   ctermfg=2    ctermbg=NONE
 
+" Perl!
+hi perlStringStartEnd    cterm=NONE  ctermfg=35  ctermbg=NONE
+
+hi perlStatementControl  cterm=NONE  ctermfg=27  ctermbg=NONE
+hi perlStatementInclude  cterm=NONE  ctermfg=27  ctermbg=NONE
+hi perlRepeat            cterm=NONE  ctermfg=27  ctermbg=NONE
