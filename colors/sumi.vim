@@ -53,11 +53,11 @@ hi SpecialKey     cterm=BOLD   ctermfg=135  ctermbg=NONE
 hi Title          cterm=BOLD   ctermfg=124  ctermbg=NONE
 hi Visual         cterm=NONE   ctermfg=231  ctermbg=61
 
-hi Comment        cterm=NONE   ctermfg=130  ctermbg=NONE
+hi Comment        cterm=NONE   ctermfg=220  ctermbg=NONE
 hi Constant       cterm=NONE   ctermfg=215  ctermbg=NONE
 hi String         cterm=NONE   ctermfg=215  ctermbg=234
 hi Error          cterm=NONE   ctermfg=231  ctermbg=52
-hi Identifier     cterm=NONE   ctermfg=131  ctermbg=NONE
+hi Identifier     cterm=NONE   ctermfg=161  ctermbg=NONE
 hi Ignore         cterm=NONE
 hi Number         cterm=NONE   ctermfg=203  ctermbg=NONE
 hi PreProc        cterm=NONE   ctermfg=35   ctermbg=NONE
