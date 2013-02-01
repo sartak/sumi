@@ -17,8 +17,8 @@ let colors_name = "sumi"
 
 hi Normal         cterm=NONE   ctermfg=231  ctermbg=16
 
-hi IncSearch      cterm=BOLD   ctermfg=232  ctermbg=215
-hi Search         cterm=NONE   ctermfg=232  ctermbg=130
+hi IncSearch      cterm=NONE   ctermfg=0    ctermbg=220
+hi Search         cterm=NONE   ctermfg=0    ctermbg=220
 hi ErrorMsg       cterm=BOLD   ctermfg=16   ctermbg=124
 hi WarningMsg     cterm=BOLD   ctermfg=16   ctermbg=202
 hi ModeMsg        cterm=BOLD   ctermfg=61   ctermbg=NONE
