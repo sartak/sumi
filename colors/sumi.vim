@@ -19,7 +19,7 @@ hi Normal         cterm=NONE   ctermfg=231  ctermbg=16
 
 hi IncSearch      cterm=NONE   ctermfg=0    ctermbg=220
 hi Search         cterm=NONE   ctermfg=0    ctermbg=220
-hi ErrorMsg       cterm=BOLD   ctermfg=16   ctermbg=124
+hi ErrorMsg       cterm=BOLD   ctermfg=0    ctermbg=203
 hi WarningMsg     cterm=BOLD   ctermfg=16   ctermbg=202
 hi ModeMsg        cterm=BOLD   ctermfg=61   ctermbg=NONE
 hi MoreMsg        cterm=BOLD   ctermfg=61   ctermbg=NONE
@@ -56,7 +56,7 @@ hi Visual         cterm=NONE   ctermfg=231  ctermbg=61
 hi Comment        cterm=NONE   ctermfg=220  ctermbg=NONE
 hi Constant       cterm=NONE   ctermfg=215  ctermbg=NONE
 hi String         cterm=NONE   ctermfg=215  ctermbg=234
-hi Error          cterm=NONE   ctermfg=231  ctermbg=52
+hi Error          cterm=NONE   ctermfg=0    ctermbg=203
 hi Identifier     cterm=NONE   ctermfg=203  ctermbg=NONE
 hi Ignore         cterm=NONE
 hi Number         cterm=NONE   ctermfg=203  ctermbg=NONE
