@@ -15,7 +15,7 @@ endif
 
 let colors_name = "sumi"
 
-hi Normal         cterm=NONE   ctermfg=231  ctermbg=16
+hi Normal         cterm=NONE   ctermfg=231
 
 hi IncSearch      cterm=NONE   ctermfg=0    ctermbg=220
 hi Search         cterm=NONE   ctermfg=0    ctermbg=220
